@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1abc9c;
+  --bs-primary: #7d6ac7;
   --bs-secondary: #2c3e50;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -8127,7 +8127,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #373347 !important;
 }
 
 .bg-secondary {
@@ -11045,4 +11045,21 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+/* CSS para tornar o chatbot expansível */
+.expansivel .df-messenger-wrapper {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+  width: 300px; /* Largura do chatbot quando minimizado */
+  transition: width 0.3s ease-in-out;
+}
+
+.expansivel .df-messenger-wrapper:hover {
+  width: 350px; /* Largura do chatbot quando expandido ao passar o mouse */
+}
+
+.expansivel .df-messenger-button {
+  display: none; /* Esconder o botão de minimizar */
 }
