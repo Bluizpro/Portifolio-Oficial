@@ -384,14 +384,17 @@
                 </div>
             </div>
         </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
         <df-messenger
-          intent="WELCOME"
-          chat-title="Assistente Virtual"
-          chat-icon="https://cdn-icons-png.flaticon.com/512/8649/8649605.png"
-          agent-id="c28ecb7d-9b1d-4920-a52b-99770a7f1560"
-          language-code="pt-br"
-        ></df-messenger>
+        intent="WELCOME"
+        chat-title="Assistente Virtual"
+        chat-icon="https://cdn-icons-png.flaticon.com/512/8649/8649605.png"
+        agent-id="c28ecb7d-9b1d-4920-a52b-99770a7f1560"
+        language-code="pt-br"
+        style="width: 300px; height: 400px;" <!-- Defina o tamanho desejado aqui -->
+      ></df-messenger>
+      
         <style>
             df-messenger {
              --df-messenger-bot-message: #878fac;
