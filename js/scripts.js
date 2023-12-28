@@ -6,7 +6,52 @@
 //
 // Scripts
 // 
+function abrirLink() {
+    // Substitua 'SEU_LINK_AQUI' pelo URL que você deseja abrir
+    var url = 'https://github.com/Bluizpro/ProEventos.API/tree/main';
+    
+    // Abre o link em uma nova aba
+    window.open(url, '_blank');
+}
+function abrirLink2() {
+    // Substitua 'SEU_LINK_AQUI' pelo URL que você deseja abrir
+    var url = 'https://botfrontassistente.netlify.app';
+    
+    // Abre o link em uma nova aba
+    window.open(url, '_blank');
+}
+function abrirLink3() {
+    // Substitua 'SEU_LINK_AQUI' pelo URL que você deseja abrir
+    var url = 'https://gerenciador-tarefass.netlify.app/';
+    
+    // Abre o link em uma nova aba
+    window.open(url, '_blank');
+}
+function abrirLink4() {
+    // Substitua 'SEU_LINK_AQUI' pelo URL que você deseja abrir
+    var url = 'https://bldelivery.netlify.app/';
+    
+    // Abre o link em uma nova aba
+    window.open(url, '_blank');
+}
 
+function abrirLink5() {
+    // Substitua 'SEU_LINK_AQUI' pelo URL que você deseja abrir
+    var url = 'https://buscacep2023.netlify.app/';
+    
+    // Abre o link em uma nova aba
+    window.open(url, '_blank');
+}
+function abrirLink6() {
+    // Substitua 'SEU_LINK_AQUI' pelo URL que você deseja abrir
+    var url = 'https://dandarapreta.netlify.app/';
+    
+    // Abre o link em uma nova aba
+    window.open(url, '_blank');
+}
+
+
+                 
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
