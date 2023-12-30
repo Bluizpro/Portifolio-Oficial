@@ -49,7 +49,13 @@ function abrirLink6() {
     // Abre o link em uma nova aba
     window.open(url, '_blank');
 }
-
+function abrirLinkcurriculo() {
+    // Substitua 'SEU_LINK_AQUI' pelo URL que você deseja abrir
+    var url = 'https://drive.google.com/file/d/1OawhPld2hEfLc1AErKCQqwkQlQyI05EA/view?usp=drive_link';
+    
+    // Abre o link em uma nova aba
+    window.open(url, '_blank');
+}
 
                  
 window.addEventListener('DOMContentLoaded', event => {
