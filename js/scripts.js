@@ -55,9 +55,7 @@ function abrirLinkcurriculo() {
     
     // Abre o link em uma nova aba
     window.open(url, '_blank');
-}
-
-                 
+}                 
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
