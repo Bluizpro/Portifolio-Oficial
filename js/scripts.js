@@ -51,7 +51,7 @@ function abrirLink6() {
 }
 function abrirLinkcurriculo() {
     // Substitua 'SEU_LINK_AQUI' pelo URL que você deseja abrir
-    var url = 'https://drive.google.com/file/d/1z6YUFC99MnZUEl1S5ZsbviTo2UlklEcG/view?usp=drive_link';
+    var url = 'https://drive.google.com/file/d/1wz3pY5jZH8QwNcpuVIie996dzEvGyOkg/view?usp=sharing';
     
     // Abre o link em uma nova aba
     window.open(url, '_blank');
